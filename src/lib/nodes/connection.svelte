@@ -1,8 +1,8 @@
 <script lang="ts">
-	import { onMount, type SvelteComponent } from "svelte";
-
 	export let from: { x: number; y: number };
 	export let to: { x: number; y: number };
+
+	export let vlan: boolean = false;
 </script>
 
 {#if from && to}
@@ -12,7 +12,7 @@
 			y1={from.y}
 			x2={to.x}
 			y2={to.y}
-			stroke="white"
+			stroke={vlan ? "blue" : "white"}
 			stroke-dasharray="10,10"
 			stroke-width="3"
 		/>
