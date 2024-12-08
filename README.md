@@ -17,11 +17,12 @@ This project is designed to help understand different network topologies such as
 
 ## Network Topologies
 
--   **Bus Topology**: A single central cable to which all network devices are connected.
--   **Star Topology**: All devices are connected to a central hub.
 -   **Ring Topology**: Each device is connected to two other devices, forming a ring.
+-   **Star Topology**: All devices are connected to a central hub.
 -   **Mesh Topology**: Devices are interconnected, with multiple paths between them.
+-   **Bus Topology**: A single central cable to which all network devices are connected.
 -   **Hybrid Topology**: Mixture of two or more topologies.
+-   **Tree Topology**: Each device is connected to a parent node.
 -   **VLAN Topology**: Different networks are connected by a virtual LAN.
 
 ## Installation
